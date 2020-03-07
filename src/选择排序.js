@@ -1,3 +1,4 @@
+// 时间复杂度 O(n²)， 空间复杂度O(1) 不稳定排序
 function selectionSort(a) {
     for (let i = 0; i < a.length; i++) {
         let max = 0;
